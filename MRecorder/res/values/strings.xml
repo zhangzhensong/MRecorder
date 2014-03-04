@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MRecorder</string>
+    <string name="properties">SlidingMenu Properties</string>
+    <string name="general">General</string>
+    <string name="viewpager">ViewPager</string>
+    <string name="attach">Attach</string>
+    <string name="title_bar">Title Bar Options</string>
+    <string name="title_bar_slide">Sliding Title Bar</string>
+    <string name="title_bar_content">Sliding Content Only</string>
+    <string name="animations">Custom Animations</string>
+    <string name="anim_zoom">Zoom</string>
+    <string name="anim_scale">Scale</string>
+    <string name="anim_fold">Fold</string>
+    <string name="anim_slide">Slide Up</string>
+    <string name="changing_fragments">Changing Fragments</string>
+    <string name="responsive_ui">Responsive UI</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="left_and_right">Left and Right</string>
+    <string name="github">GitHub</string>
+    <string name="github_label">SlidingMenu on GitHub</string>
+    <string name="what_is_this">What is this?</string>
+    <string name="responsive_explanation">This is an example of a UI that responds well to device type. On phones, the menu will be placed inside a SlidingMenu, while on tablets the menu will be exposed alongside the content because we have enough room to always show it.</string>
+    <string name="about">About</string>
+    <string name="licenses">Licenses</string>
+    <string name="author">Author</string>
+    <string name="contact">Contact</string>
+
+    <string name="network">连接方式</string>
+    <string name="wifi_connect">wifi</string>
+    <string name="bluetooth_connect">蓝牙</string>
+    
+    <string name="contents">菜单</string>
+    <string name="recorder_activity">录音模块</string>
+    <string name="recorder_activity1">边录边播</string>
+    <string name="recorder_activity2">显示波形</string>
+    
+    <string name="recorder_history">录音记录</string>
+    <string name="recorder_history1">列表形式</string>
+    
+    <string name="sorry">Sorry</string>
+    <string name="under_developing">该功能正在卖力开发中...</string>
+    
+    
+    
+    <string name="about_msg">&lt;b>MRecorder&lt;/b>是一个由中国科学院软件研究所和中国科学院深圳先进技术研究院联合开发的医疗录音项目,功能如下:&lt;br>
+        (1)对网络环境的判断&lt;br>
+           检测设备的网络环境，在无网络连接或者非Wifi连接情况下，向用户做相应说明与提示。&lt;br>&lt;br>
+        (2)录音&lt;br>
+        用户启动APP后，可立即点击录音按钮，启动录音。录音文件保存在SD卡中。&lt;br>
+        音频属性：wav格式、16k、16bit、单声道。&lt;br>
+        音频文件命名：设备ID号_录音时刻&lt;br>&lt;br>
+        (3)录音停止&lt;br>
+        录音时长做最大时长限制，并可由用户点击停止按钮手动停止录音。&lt;br>&lt;br>
+        (4)提取特征&lt;br>
+        录音停止后，在本地用Hcopy工具对音频文件提取特征，特征文本文件保存在SD卡中。&lt;br>
+        特征文件命名：音频文件名&lt;br>&lt;br>
+        (5)音频转码（可选）&lt;br>
+        将wav文件转码为amr或mp3（转换速度较慢）。&lt;br>&lt;br>
+        (6)上传特征文件&lt;br>
+        将特征文件上传到服务器相应目录下。目录名：…/设备ID号/音频文件名/…&lt;br>&lt;br>
+        (7)显示识别结果&lt;br>
+        轮询服务器对特征文件的识别结果并显示。&lt;br>&lt;br>
+        (8)上传音频文件&lt;br>
+        在移动设备空闲时，将音频文件上传至服务器相应目录下。&lt;br>
+        相应目录：…/设备ID/音频文件名/…&lt;br>&lt;br>
+        (9)识别结果可人工修正&lt;br>
+        提供给用户修正识别结果并保存的功能。&lt;br>&lt;br>
+        (10)修正结果后上传服务器&lt;br>
+        将人工修改后的识别结果自动上传服务器保存的功能。&lt;br>&lt;br>
+        (11)查看历史识别结果&lt;br>
+        识别结果按日期保存在本地数据库，并提供给用户按日期查看本机的历史识别结果的功能。&lt;br>&lt;br>
+        (12)用户可以按日期查询保存在本地数据库中的结果&lt;br>
+        </string>
+    <string name="apache_license">&lt;b>MRecorder &lt;/b>&lt;br>
+        \u00A9 2014 Zhensong Zhang&lt;br>
+        Institute of Software, Chinese Academy of Sciences&lt;br>
+        </string>
+    <string name="author_info">&lt;b>MRecorder &lt;/b>&lt;br>
+        \u00A9 2014 Zhensong Zhang&lt;br>
+        Institute of Software, Chinese Academy of Sciences&lt;br>
+        </string>
+    <string name="no_email">Sorry, I couldn\'t find any e-mail apps on your phone</string>
+
+</resources>

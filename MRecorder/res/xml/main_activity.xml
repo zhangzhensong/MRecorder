@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/network" >
+        <Preference android:title="@string/wifi_connect" />
+        <Preference android:title="@string/bluetooth_connect" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/recorder_activity" >
+        <Preference android:title="@string/recorder_activity1" />
+        <Preference android:title="@string/recorder_activity2" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/recorder_history" >
+        <Preference android:title="@string/recorder_history1" />
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
